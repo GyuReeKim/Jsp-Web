@@ -1,0 +1,14 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+body {
+	background-color: #FBFFF1;
+	margin: 0;
+}
+
+.layout-container {
+	font-family: 'Jeju Gothic';
+	margin-top: 10vh;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-bottom: 5vh;
+}

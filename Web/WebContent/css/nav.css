@@ -1,0 +1,48 @@
+@font-face { font-family: 'SDSamliphopangche_Outline'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'KyoboHand'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #2F4858;
+	padding: 20px 40px;
+	font-family: 'SDSamliphopangche_Outline';
+}
+
+.navbar-logo {
+	font-size: 24px;
+	color: white;
+}
+
+.navbar-logo i {
+	color: #93C572;
+}
+
+/* 오른쪽 정렬 해야함 */
+.navbar-user {
+	display: flex;
+	font-family: 'KyoboHand';
+	cursor: default;
+}
+
+.navbar-menu {
+	display: flex;
+	padding-left: 0;
+}
+
+.navbar-menu a {
+	padding: 8px 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.navbar-menu a:hover {
+	background-color: #93C572;
+	border-radius: 4px;
+}
+
+.navbar-text {
+	color: white;
+	text-decoration: none;
+}

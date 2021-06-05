@@ -1,0 +1,164 @@
+.board-table {
+	width: 100%;
+	border-top: 2px solid;
+	border-color: #E3655B;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+th.board-table-shell {
+	border-bottom: 2px solid;
+	border-color: #E3655B;
+	padding: 15px 0;
+}
+
+ table.board-table > tbody > tr> td {
+	border-bottom: 1px solid;
+	padding: 10px 0;
+	border-color: #CC998D;
+}
+
+.board-title {
+	margin-left: 20px;
+}
+
+.board-title-text {
+	color: #000000;
+	text-decoration: none;	
+}
+
+.board-title-text:hover {
+	text-decoration: underline;
+}
+
+.go-board {
+	color: #E3655B;
+	cursor: pointer;
+}
+
+.view-table {
+	width: 100%;
+	/*
+	border-top: 1px solid;
+	border-color: #CC998D;
+	*/
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+th.view-table-shell {
+	padding: 15px 10px 5px;
+	font-size: 25px;
+}
+
+td.view-table-shell {
+	border-bottom: 1px solid;
+	border-color: #CC998D;
+	padding: 5px 10px;
+}
+
+td.view-table-content {
+	height: 200px;
+	text-align: left;
+	vertical-align: top;
+	padding: 20px;
+	border-bottom: 1px solid;
+	border-color: #CC998D;
+}
+
+.button-page {
+	float: left;
+	margin-left: 10px;
+}
+
+.button-style-previous {
+	border: 1px solid;
+	border-color: #2F4858;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #2F4858;
+	padding: 5px 10px;
+}
+
+.button-style-previous:hover {
+	border: 1px solid;
+	border-color: #2F4858;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	background-color: #2F4858;
+	padding: 5px 10px;
+}
+
+.button-style-next {
+	border: 1px solid;
+	border-color: #2F4858;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #2F4858;
+	padding: 5px 10px;
+}
+
+.button-style-next:hover {
+	border: 1px solid;
+	border-color: #2F4858;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	background-color: #2F4858;
+	padding: 5px 10px;
+}
+
+.button-write {
+	float: right;
+	margin-right: 10px;
+}
+
+.button-style-write {
+	border: 1px solid;
+	border-color: #2F4858;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	background-color: #2F4858;
+	padding: 5px 10px;
+}
+
+.button-style-update {
+	border: 1px solid;
+	border-color: #E59500;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #E59500;
+	padding: 5px 10px;
+}
+
+.button-style-update:hover {
+	border: 1px solid;
+	border-color: #E59500;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	background-color: #E59500;
+	padding: 5px 10px;
+}
+
+
+.button-style-delete {
+	border: 1px solid;
+	border-color: #E3655B;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #E3655B;
+	padding: 5px 10px;
+}
+
+.button-style-delete:hover {
+	border: 1px solid;
+	border-color: #E3655B;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	background-color: #E3655B;
+	padding: 5px 10px;
+}

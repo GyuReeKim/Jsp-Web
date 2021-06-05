@@ -1,0 +1,66 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+.form-container {
+	text-align: center;
+}
+
+.input-form {
+	display: inline-block;
+	font-family: 'Hanna';
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.input-form-submit {
+	display: inline-block;
+	font-family: 'Jeju Gothic';
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid #66894F;
+	background-color: #93C572;
+	border-radius: 5px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.write-form {
+	display: inline-block;
+	font-family: 'Jeju Gothic';
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.write-form-content {
+	display: inline-block;
+	font-family: 'Jeju Gothic';
+	width: 100%;
+	min-height: 200px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.write-form-submit {
+	float: right;
+	font-family: 'Jeju Gothic';
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid;
+	border-color: #66894F;
+	background-color: #93C572;
+	border-radius: 5px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
